@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 // import Clock from "../clock/clock.jsx";
 // import Relation from "../relation/relation.tsx";
 // import  '../relation/relation.css';
-function Header() {
+const Header = () =>  {
   
   
   // const authStatus = useSelector((state) => state.auth.status)
