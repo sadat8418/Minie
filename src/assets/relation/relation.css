@@ -1,0 +1,52 @@
+/* @import "tailwindcss"; */
+/* 10-second slow fade animation */
+.fade-bg {
+  transition: background 10s linear;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+  .main-wrapper {
+    
+   
+    flex-direction: column;
+   
+    overflow-x: scroll;
+   
+
+  }
+
+  .left-panel {
+    width: 400px !important;
+    height: 500px ; /* adjustable */
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    overflow-x: scroll; 
+     overflow-y: scroll;
+  }
+
+  .right-panel {
+    width: 768px !important;
+    height: 768px !important;
+    padding-top: 10px;
+       overflow-x: scroll;
+
+    overflow-y: scroll;
+  }
+
+  svg {
+    width: 100% ;
+    height: 100% ; /* mobile height */
+    overflow-y: scroll;
+        overflow-x: scroll;
+
+  }
+}
