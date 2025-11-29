@@ -7,7 +7,7 @@ import Partition from "./assets/partition/partition.jsx";
 import Video from "./assets/video/video.js";
 
 import Clock from "./assets/clock/clock.jsx";
-import Header from './assets/header/Header.jsx';
+import Header from './assets/header/header.jsx';
 
 import './index.css'
 
