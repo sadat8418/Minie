@@ -1,12 +1,13 @@
 
 import { Routes, Route } from "react-router-dom";
-
+import Relation from "./assets/relation/relation.tsx";
 import Box from './assets/box/Box.jsx';
-import Relation from "./assets/relation/Relation.tsx";
+
 import Partition from "./assets/partition/Partition.jsx";
 import Video from "./assets/video/Video.js";
 import Header from './assets/header/Header.jsx';
 import Clock from "./assets/clock/Clock.jsx";
+
 import './index.css'
 
 export default function App() {
