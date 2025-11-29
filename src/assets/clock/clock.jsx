@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./main.css";
-function Clock({ hAngle, mAngle }) {
+function Clock2({ hAngle, mAngle }) {
   const isBlack = hAngle === 225 && mAngle === 225;
 
   return (
@@ -155,13 +155,13 @@ function Digit({ value }) {
   return (
     <div className="digit">
       {layout.map(([h, m], i) => (
-        <Clock key={i} hAngle={h} mAngle={m} />
+        <Clock2 key={i} hAngle={h} mAngle={m} />
       ))}
     </div>
   );
 }
 
-export default function App() {
+export default function Clock() {
   const [timeDigits, setTimeDigits] = useState(["0", "0", "0", "0"]);
 
   useEffect(() => {
