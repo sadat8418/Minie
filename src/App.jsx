@@ -3,10 +3,10 @@ import { Routes, Route } from "react-router-dom";
 import Relation from "./assets/relation/relation.tsx";
 import Box from './assets/box/Box.jsx';
 
-import Partition from "./assets/partition/Partition.jsx";
-import Video from "./assets/video/Video.js";
+import Partition from "./assets/partition/partition.jsx";
+import Video from "./assets/video/video.js";
 import Header from './assets/header/Header.jsx';
-import Clock from "./assets/clock/Clock.jsx";
+import Clock from "./assets/clock/clock.jsx";
 
 import './index.css'
 
