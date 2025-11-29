@@ -84,7 +84,7 @@ const parseValidPeople = (input: string): Person[] => {
 const canvasWidth = 900;
 const canvasHeight = 600;
 
-const App = () => {
+const Relation = () => {
   const [text, setText] = useState(defaultText.trim());
   const [people, setPeople] = useState<Person[]>([]);
   const [positions, setPositions] = useState<Record<number, Position>>({});
@@ -274,4 +274,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Relation;

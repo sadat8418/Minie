@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 // import "./box.css";
-const BoxDuplicator = () => {
+const Box = () => {
   const [boxes, setBoxes] = useState([]);
   const [connections, setConnections] = useState([]);
   const containerRef = useRef(null);
@@ -174,4 +174,4 @@ const BoxDuplicator = () => {
   );
 };
 
-export default BoxDuplicator;
+export default Box;

@@ -13,7 +13,7 @@ const createLeaf = () => ({
   color: randomColor(),
 });
 
-const App = () => {
+const Partition = () => {
   const [node, setNode] = useState(createLeaf());
 
   const containerRef = useRef(null);
@@ -166,4 +166,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Partition;

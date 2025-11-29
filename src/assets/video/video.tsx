@@ -23,7 +23,7 @@ function roundedRectPath(x: number, y: number, w: number, h: number, r: number) 
   ].join(" ");
 }
 
-const VideoRoundedSeek: React.FC = () => {
+const Video: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const svgRef = useRef<SVGSVGElement | null>(null);
   const pathRef = useRef<SVGPathElement | null>(null);
@@ -233,4 +233,4 @@ const VideoRoundedSeek: React.FC = () => {
   );
 };
 
-export default VideoRoundedSeek;
+export default Video;
