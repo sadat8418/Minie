@@ -5,8 +5,9 @@ import Box from './assets/box/Box.jsx';
 
 import Partition from "./assets/partition/partition.jsx";
 import Video from "./assets/video/video.js";
-import Header from './assets/header/Header.jsx';
+
 import Clock from "./assets/clock/clock.jsx";
+import Header from './assets/header/Header.jsx';
 
 import './index.css'
 

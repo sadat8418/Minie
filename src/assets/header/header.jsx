@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 // import {Container, Logo, LogoutBtn} from '../index'
 // import { Link } from 'react-router-dom'
 // import {useSelector} from 'react-redux'
@@ -11,14 +11,11 @@ import { Link } from "react-router-dom";
 // import Clock from "../clock/clock.jsx";
 // import Relation from "../relation/relation.tsx";
 // import  '../relation/relation.css';
-function Header(props) {
+function Header() {
   
   
   // const authStatus = useSelector((state) => state.auth.status)
-  // const navigate = useNavigate()
- 
-
-//#7c89a1
+  // const navigate = useNavigate()//#7c89a1
  const projects = [
     { name: "Project One", path: "/p1" },
     { name: "Project Two", path: "/p2" },
@@ -29,9 +26,9 @@ function Header(props) {
 
   return (
     <>
-    <header>
+    
       
-        <nav class=''>
+      
         <div class="flex flex-wrap gap-3 p-3 ml-4 mt-4 mb-4 ">
 
             {projects.map((p, i) => (
@@ -46,10 +43,10 @@ function Header(props) {
             </motion.button></Link>  ))}
           </div>
           
-        </nav>
+    
      
         
-    </header>
+    
    
     </>
   )
