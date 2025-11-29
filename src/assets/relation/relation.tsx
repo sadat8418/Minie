@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import './relation.css';
+
 type Relation = {
   id: number;
   relation: string;

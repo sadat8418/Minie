@@ -1,5 +1,4 @@
 import React, { useState, useCallback, useRef } from "react";
-import "./index.css";
 
 const randomColor = () => {
   const r = Math.floor(Math.random() * 200 + 20);
