@@ -12,7 +12,7 @@ function Clock2({ hAngle, mAngle }) {
         border: isBlack
           ? "1px solid #000"
           : "1px solid oklch(95.4% 0.038 75.164)",
-        transition: "background-color 30s ease",  
+        transition: "background-color 25s ease",  
       }}
     >
       <line
@@ -177,10 +177,16 @@ export default function Clock() {
   }, []);
 
   return (
+    <>
     <div className="main">
       {timeDigits.map((n, i) => (
         <Digit key={i} value={parseInt(n)} />
       ))}
+      
     </div>
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} Sadat Arefin. All rights reserved.</p>
+    </footer>
+    </>
   );
 }

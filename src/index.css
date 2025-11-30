@@ -132,3 +132,13 @@ background-color:  #9CA3AF;}
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
   transform: scale(1.2);
 }
+
+/* footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666666eb;
+  border-top: 1px solid #eee;
+}
